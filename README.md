@@ -16,7 +16,7 @@ FROM php:7.2-apache
 WORKDIR /var/www/html
 RUN docker-php-ext-install mysqli
 ```
-Em `build:` o Dockerfile acima é referenciado para gerar a imagem e container do PHP, Apache
+Em `build:` o Dockerfile acima é referenciado para gerar a imagem e container do PHP e do Apache
 ``` yml
 version: '3'
 
